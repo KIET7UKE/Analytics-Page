@@ -1,0 +1,76 @@
+{
+  "tableCells": [
+    {
+      "id": 1,
+      "label": "Date",
+      "find": "date",
+      "type": "date",
+      "align": "left",
+      "hideable": false
+    },
+    {
+      "id": 2,
+      "label": "App Name",
+      "find": "app_id",
+      "type": "app",
+      "align": "left",
+      "hideable": false
+    },
+    {
+      "id": 3,
+      "label": "Ad Request",
+      "find": "requests",
+      "type": "number",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 4,
+      "label": "Ad Response",
+      "find": "responses",
+      "type": "number",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 5,
+      "label": "Impression",
+      "find": "impressions",
+      "type": "number",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 6,
+      "label": "Clicks",
+      "find": "clicks",
+      "type": "number",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 7,
+      "label": "Revenue",
+      "find": "revenue",
+      "type": "currency",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 8,
+      "label": "Fill Rate",
+      "find": "fill_rate",
+      "type": "percentage",
+      "align": "right",
+      "hideable": true
+    },
+    {
+      "id": 9,
+      "label": "CTR",
+      "find": "ctr",
+      "type": "percentage",
+      "align": "right",
+      "hideable": true
+    }
+  ]
+}

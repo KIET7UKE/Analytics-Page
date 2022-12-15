@@ -1,0 +1,41 @@
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .date-and-settings {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .settings-btn {
+    background-image: linear-gradient(white, white);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.9em;
+    padding: 10px 30px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 30px;
+    color: black;
+  }
+  

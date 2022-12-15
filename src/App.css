@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 60px 60px;
+  gap: 30px;
+  border-left: 60px solid #192F48;
+  height: 684px;
+}
+
+.greedy-logo {
+  width: 250px;
+  height: 50px;
+}
+
+.left-bar {
+  border-left: 60px solid #192F48;
+  height: 500px;
+}

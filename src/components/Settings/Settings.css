@@ -1,0 +1,26 @@
+.glass {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .column-order-btn-container {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+  }
+  
+  /* .column-order-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+  } */
+  

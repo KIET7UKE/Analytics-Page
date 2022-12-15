@@ -1,0 +1,21 @@
+.no-data-component-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .no-data-message {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .no-data-message-title-group {
+    margin-bottom: 20px;
+  }
+  
+  .no-data-found-image {
+    width: 200px;
+    max-height: 400px;
+  }
+  
