@@ -1,3 +1,25 @@
+# Analytics Page Task
+One of the basic components to consume large amounts of information is a table. This helps users to get anidea of different
+metrics for their perspective. Your goal for this assessment is to create a customisable table with a set of functionalities. The table
+that you will create will feature an analytics page that will call aREST API to fetch the data. That data needs to be represented on
+your Table component and enable the user to perform some operations that will alter the view for the end user
+
+# App Features
+-> You need to give an option for the user to input the dates as a Date Picker to call the API end point to fetch data. Please
+note that the data would be available for a sample range only (Try 1-Jun-2021 to 31-Jun-2021)
+* Reusable Analytics Table Component
+* Allow the user to enable/hide a particular column from view The columns for the table need to have a
+representation separately as well. This will allow the user to select/deselect a particularcolumn from view
+* Reorderable table columns (from settings tab [refer mock]).
+* Data formatting (each cell).
+* Sortings & filters.
+* Responsive Table.- Extra
+[OPTIONAL] Reusable data cache layer. (Don't call http call again if the data has been queried recently.)
+-> Shareable table link (If you share the link to anyone, table's all filters & columns should be populated)
+
+![Screenshot (1236)](https://user-images.githubusercontent.com/76551267/207990528-4783f3de-3953-462f-89d6-2dea652017f7.png)
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
